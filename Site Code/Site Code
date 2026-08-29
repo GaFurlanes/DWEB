@@ -9,9 +9,9 @@
     <meta name="description" content="Portifólio do guga, desenvolvedor web.">
     <meta name="keywords" content="Desenvolvedor, Web, HTML,
     CSS, JavaScript,Portifólio">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Pórtifolio GFurlanes haha</title>
+    <title>Pórtifolio GFurlanes </title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                     <li class="nav-item"><a href="#skills" class="nav-link active">
                             Habilidades</a></li>
                     <li class="nav-item"><a href="#projects" class="nav-link active">
-                            projetos</a></li>
+                            Projetos</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link active">
                             Contato</a></li>
                 </ul>
@@ -58,10 +58,10 @@
 
             <div class="home-img">
                 <br><br>
-                <img src="img/images (1).jpeg" width="300" height="300" alt="Foto de jaré" srcset="jaré">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGQmVp71_oYz9YOO38Bi6tVVeAKRYNikyIZXILiWv9iA&s=10" width="300" height="300" alt="Foto de jaré" >
             </div>
         </section>
-        <section class="about section" id="">
+        <section class="about section" id="about">
 
         </section>
         <section class="formation section" id="formation">
@@ -71,119 +71,137 @@
                     <h3>
                         <p> Tecnologia em ADS <br>
                             Fatec Sorocaba - SP
-                            Período : 2026 a 2028. </p>
-                        <br>
-                        <h3><u>Complementar</u></h3>
-                        <ol>
-                            <li> Python - Alura (52 horas)</li>
-                            <li> Sprint Boot - Alura (30 horas)</li>
-                        </ol>
+                            Período : 2026 a 2028.
+                    </h3>
+                    </p>
+                    <br>
+                    <h3><u>Complementar</u></h3>
+                    <ol>
+                        <li> Python - Alura (52 horas)</li>
+                        <li> Sprint Boot - Alura (30 horas)</li>
+                    </ol>
             </div>
             </h2>
         </section>
 
 
-        </section class="skills section" id="skills">
-        <h2 class="section-title">Habilidades</h2>
-        <div class="skills container bd-grid">
-            <div>
-                <h2 class="skills-subtitle">
-                    Habilidades Profissionais</h2>
-                <p class="skills text">
-                    Minhas habilidades são focadas em
-                    <strong> desenvolvimento</strong>
-                    <b>Web</b>,
-                    incluindo <abbr title="HyperText Markup Language">HTML</abbr>,
-                    CSS,JavaScript e vários <i>FrameWorks</i>.
-                </p>
-                <div class="skills-data">
-                    <div class="skills-names">
-                        <p>HTML5 e CSS3</p>
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills container bd-grid">
+                <div>
+                    <h2 class="skills-subtitle">
+                        Habilidades Profissionais</h2>
+                    <p class="skills text">
+                        Minhas habilidades são focadas em
+                        <strong> desenvolvimento</strong>
+                        <b>Web</b>,
+                        incluindo <abbr title="HyperText Markup Language">HTML</abbr>,
+                        CSS,JavaScript e vários <i>FrameWorks</i>.
+                    </p>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <p>HTML5 e CSS3</p>
+                        </div>
+                        <div class="skills-bar skills-html"></div>
+                        <div>
+                            <span class="skills-percentage">80%</span>
+                        </div>
                     </div>
-                    <div class="skills-bar skills-html"></div>
-                    <div>
-                        <span class="skills-percentage">80%</span>
-                    </div>
-                </div>
 
-                <div class="skills-data">
-                    <div class="skills-names">
-                        <p>JAVASCRIPT</p>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="skills-bar skills-js"></div>
+                        <div>
+                            <span class="skills-percentage">70%</span>
+                        </div>
                     </div>
-                    <div class="skills-bar skills-js"></div>
-                    <div>
-                        <span class="skills-percentage">70%</span>
-                    </div>
-                </div>
 
-                <h3> Soft Skills</h3>
-                <dl>
-                    <dt><em>Comunicação</em></dt>
-                    <dd> Liderança e Apresentações</dd>
-                    <dt><em>Trabalho em Equipe</em></dt>
-                    <dd>Equipes de Marketing e vendas para lançamento de novo produto</dd>
-                </dl>
+                    <h3> Soft Skills</h3>
+                    <dl>
+                        <dt><em>Comunicação</em></dt>
+                        <dd> Liderança e Apresentações</dd>
+                        <dt><em>Trabalho em Equipe</em></dt>
+                        <dd>Equipes de Marketing e vendas para lançamento de novo produto</dd>
+                    </dl>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="projects section" id="projects">
-        <h2 class="section-title">Projetos</h2>
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projetos</h2>
 
-        <div class="projects-text">
-            <h3>Tabela de Progressão</h3>
-            <br>
-            <table class="projects-table">
-                <thead>
-                    <tr>
-                        <th>Projetos</th>
-                        <th>Tecnologia</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Site Pessoal</td>
-                        <td>HTML, CSS, JS</td>
-                        <td>Concluído</td>
-                    </tr>
-                    <tr>
-                        <td>Site Institucional da Alpha</td>
-                        <td>React, Node.js</td>
-                        <td>Em progresso</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+            <div class="projects-text">
+                <h3>Tabela de Progressão</h3>
+                <br>
+                <table class="projects-table">
+                    <thead>
+                        <tr>
+                            <th>Projetos</th>
+                            <th>Tecnologia</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Site Pessoal</td>
+                            <td>HTML, CSS, JS</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Site Institucional da Alpha</td>
+                            <td>React, Node.js</td>
+                            <td>Em progresso</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-        <div class="projects-container bd-grid">
-            <div class="projects-img">
-                <figure>
-                    <a href="https://github.com/GaFurlanes"
-                    target="blank">
-                      <img src="https://avatars.githubusercontent.com/u/273892699?v=4"
-                      alt="" width="300" height="300">
-                    </a>
-    <figcaption>Projeto Site Pessoal</figcaption>
+            <div class="projects-container bd-grid">
+                <div class="projects-img">
+                    <figure>
+                        <a href="https://github.com/GaFurlanes" target="blank">
+                            <img src="https://avatars.githubusercontent.com/u/273892699?v=4" alt="" width="300"
+                                height="300">
+                        </a>
+                        <figcaption>Projeto Site Pessoal</figcaption>
                     </figure>
                 </div>
                 <div class="projects-img">
                     <figure>
-                        <a href="seu endereço git"
-                        target="blank">
-                        <img src="https://github.com/GaFurlanes"
-                        alt="" width="300" height="300">
-                    </a>
-            <figcaption>Site Institucional de Gabriel</figcaption>
+                        <a href="seu endereço git" target="blank">
+                            <img src="https://github.com/GaFurlanes" alt="" width="300" height="300">
+                        </a>
+                        <figcaption>Site Institucional de Gabriel</figcaption>
                     </figure>
                 </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-container bd-grid">
+
+                <a href="seu endereco insta/">
+                    <img src="./images/insta.png" width="100" height="100" alt="logo do instagram"></a>
+
+                <a href="https://wa.me/551599999999">
+                    <img src="./images/whatsapp.png" width="100" height="100"></a>
+
+                <a href="seu endereco linkedin">
+                    <img src="./images/linkedin.png" width="100" height="100"></a>
+
+                <a href="https://github.com/sherlocksilva123">
+                    <img src="./images/github.png" width="100" height="100"></a>
             </div>
         </section>
     </main>
 
     <footer>
-
+        <p id="footer-title">Criado na aula </p>
+        <p>&copy;Todos os direitos reservados. </p>
     </footer>
+
 </body>
 
 </html>
