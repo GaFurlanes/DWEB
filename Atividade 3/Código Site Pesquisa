@@ -1,0 +1,53 @@
+   <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="" width=device-width, initial-scale="1.0">
+    <meta name="description" content="Portifólio do Gabriel, desenvolvedor web.">
+    <meta name="keywords" content="Desenvolvedor, Web, HTML,
+    CSS, JavaScript,Portifólio">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Site para a Pesquisa </title>
+</head>
+
+<body>
+   <section class="pesquisa section" id="pesquisa">
+            <h2 class="section-title"><u>Site para a Pesquisa - Gabriel Furlanes</u></h2>
+<dd><dd>O Ecossistema das APIs e Integrações na Era Digital</dd></dd>
+<dd> <br>1. Introdução:</dd></br>
+O avanço tecnológico recente expandiu drasticamente o desenvolvimento e o uso de Interfaces de Programação de Aplicativos (APIs). Com milhões de pacotes disponíveis em repositórios como Maven, PyPI e npm, as APIs tornaram-se parte integrante e indispensável do desenvolvimento de software moderno. Elas permitem que desenvolvedores economizem tempo e esforço ao utilizarem funcionalidades pré-prontas, promovendo a qualidade do software e reduzindo o custo de desenvolvimento.
+<dd><br>2. O que são APIs e Integrações:</dd></br>
+As APIs e os processos de integração formam a base da comunicação entre sistemas distintos no cenário atual.
+	     <dd>2.1. Definição Técnica de API: Por definição, APIs são interfaces que servem como pontos de entrada para entidades de software reutilizáveis. Elas</dd> não são entidades independentes,</dd> mas sim empacotadas com bibliotecas, frameworks ou serviços Web. Essencialmente, funcionam como um contrato entre o provedor e o consumidor de um recurso.
+	     <dd>2.2. O Conceito de Integração: A integração é a capacidade de comunicação contínua entre diversos sistemas de software, permitida pelas APIs. Elas</dd> atuam como o "tecido conectivo" vital </dd>que facilita a troca de dados em ecossistemas digitais, abrangendo desde computação em nuvem e arquiteturas de microsserviços até dispositivos de Internet das Coisas (IoT).
+<dd><br>3. Governança e Gestão de APIs: </dd></br>
+Para que as integrações sejam eficazes e seguras, é necessário um modelo de governança robusto que evite vulnerabilidades e duplicação de serviços.
+<dd> 3.1. As Três Fundações da Governança: </dd>
+	Propriedade (Ownership): Cada API deve ter um identificador único e uma equipe responsável pelo seu ciclo de vida.
+	Política (Policy): Utilização de padrões como a OpenAPI Specification (OAS) para garantir que as APIs adiram a estados desejados de segurança e conformidade.
+	Padrões (Standards): Diretrizes de design que promovem a consistência e facilitam a reusabilidade.
+<dd> 3.2. Riscos em Setores Críticos: No contexto do Open Banking, as APIs permitem que terceiros acessem dados financeiros. Isso introduz riscos como</dd> fraude financeira, roubo de identidade e interrupções operacionais, exigindo frameworks regulatórios e de segurança rigorosos.
+<dd> <br>4. Segurança em APIs: </dd></br>
+Como as APIs lidam com grandes volumes de dados sensíveis, elas se tornaram alvos primários para ataques cibernéticos.</dd>
+<dd>4.1. Desafios Fundamentais: Os principais desafios incluem a implementação de autenticação e autorização robustas, criptografia de dados e limitação</dd> de taxa (rate limiting) para evitar abusos e ataques de negação de serviço.
+<dd>4.2. Melhores Práticas: Recomenda-se o uso de OAuth 2.0 para autenticação baseada em tokens, a aplicação de Transport Layer Security (TLS) em</dd>todo o tráfego e a implementação de API Gateways para centralizar o controle de políticas.
+<dd><br>5. Desempenho e Arquitetura de Microsserviços: </dd></br>
+A escolha da tecnologia para implementar APIs de integração impacta diretamente a performance do sistema.
+<dd>5.1. Comparação gRPC (Go vs. Node.js): Em sistemas de microtransações, o protocolo gRPC é altamente recomendado para comunicações internas.</dd> Pesquisas indicam que a linguagem Go oferece maior estabilidade sob carga extrema, alcançando 1.641 requisições por segundo, enquanto o Node.js pode estagnar em 174 requisições devido às limitações de seu event loop único.
+<dd>5.2. Eficiência de Recursos: O Go demonstrou ser mais eficiente no uso de recursos, com um consumo de RAM 26,7% menor que o Node.js em </dd>cenários de alta concorrência.
+<dd><br>6. Conclusão: </dd></br>
+As APIs deixaram de ser meras ferramentas técnicas para se tornarem ativos estratégicos de negócios que impulsionam a economia digital. O futuro da área aponta para o uso de Inteligência Artificial e Aprendizado de Máquina para detectar anomalias no tráfego e a adoção da Arquitetura Zero Trust, onde a verificação é exigida para cada requisição, independentemente de sua origem. O sucesso das organizações dependerá de uma governança que equilibre agilidade na inovação com controle rigoroso de segurança e performance.
+<br></br>
+<dd>Referências</dd>
+<u><dd>1.Lamothe, M., Guéhéneuc, Y. G., & Shang, W. (2020). A Systematic Review of API Evolution Literature. Concordia University.
+<dd>2.	Jaber, A. (2023). API Governance and Risk Management. APIscene.</dd>
+<dd>3.	Huang, Y. C. (2023). API Governance: Three Foundations and the Last Hidden Gem. Rabobank.</dd>
+<dd>4.	Wikipedia. API management.</dd>
+<dd>5.	Panna, A., Onggo, B. A., & Siregar, M. E. (2026). Analisis Perbandingan Kinerja gRPC Go dan Node.js pada Layanan Microtransactions. JURTI.</dd>
+<dd>6.	Wulf, J., & Blohm, I. (2020). Fostering Value Creation with Digital Platforms. JMIS.</dd>
+<dd>7.	Vovveti, P. (2024). The Role of API Security in Modern Enterprise Platforms. IJRASET.</dd>
+<dd>8.	Mousavi, Z., et al. (2025). Detecting Misuse of Security APIs: A Systematic Review. arXiv.</dd></u>
