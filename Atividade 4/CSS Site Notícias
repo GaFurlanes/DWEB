@@ -1,1 +1,84 @@
+body {
+    padding: 10px;
+}
+.cabecalho {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    color: white;
+}
 
+.cabecalho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.cabecalho-conteudo {
+    text-align: left;
+}
+
+.cabecalho h1 {
+    font-size: 42px;
+    margin: 0 0 10px;
+}
+
+.cabecalho p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.container-box {
+    display: grid;
+    /* mais importante */
+    grid-gap: 10px;
+    /* espaçamento entre  linhas e colunas */
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100px 150px;
+    /* 3 linhas, tamanho de cada um*/
+    /* disposição na tela observe que a aparece 3x na 
+    primeira coluna, 
+    e 2x na segunda coluna e f aparece 2x na terceira e 
+     2x na quarta */
+    grid-template-areas:
+        'a b c d'
+        'a e f f'
+        'a e f f';
+}
+
+.box {
+    background-color: #FF8C00;
+    border-radius: 5px;
+}
+
+/* definindo que a area da classe a
+deve ficar o grid formado pela classe a */
+.a {
+    grid-area: a;
+    text-align: center;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
