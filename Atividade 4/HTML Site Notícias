@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazônia Notícias - Gabriel Furlanes</title>
+
+    <meta name="author" content="Gabriel Furlanes">
+    <meta name="description" content="Portal de notícias sobre a Amazônia.">
+    <meta name="keywords" content="Amazônia, notícias, meio ambiente, Brasil, floresta">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+   <header class="cabecalho">
+    <img src="https://www.infoescola.com/wp-content/uploads/2018/02/floresta-amazonica-343759751.jpg" alt="Vista aérea da floresta amazônica e seus rios">
+
+    <div class="cabecalho-conteudo">
+        <h1>Amazônia Notícias</h1>
+        <p>Informação sobre a maior floresta tropical do mundo</p>
+    </div>
+</header>
+
+
+
+    <nav class="menu">
+        <div class="container">
+            <a href="#inicio">Início</a>
+            <a href="#meio-ambiente">Meio Ambiente</a>
+            <a href="#povos">Povos da Amazônia</a>
+            <a href="#economia">Economia</a>
+            <a href="#tecnologia">Tecnologia</a>
+        </div>
+    </nav>
+
+    <main class="container" id="inicio">
+
+
+        <section class="manchete">
+            <span class="categoria">DESTAQUE</span>
+
+            <h2>Amazônia enfrenta novos desafios para preservar a floresta e seus recursos naturais</h2>
+
+            <p>
+                A preservação da Amazônia continua sendo um dos principais desafios
+                ambientais do Brasil. Comunidades, pesquisadores e órgãos ambientais
+                buscam novas formas de proteger a floresta e promover o desenvolvimento
+                sustentável da região.
+            </p>
+
+            <small>Por Gabriel Furlanes • Notícias da Amazônia</small>
+        </section>
+
+        <section class="noticias">
+
+            <article class="noticia">
+                <span class="categoria">MEIO AMBIENTE</span>
+
+                <h2>Desmatamento e preservação continuam no centro dos debates sobre a Amazônia</h2>
+
+                <p>
+                    A conservação da floresta amazônica envolve ações de fiscalização,
+                    recuperação de áreas degradadas e criação de estratégias para
+                    reduzir os impactos ambientais.
+                </p>
+            </article>
+
+            <article class="noticia">
+                <span class="categoria">POVOS DA AMAZÔNIA</span>
+
+                <h2>Comunidades tradicionais desempenham papel importante na conservação da floresta</h2>
+
+                <p>
+                    Povos indígenas, ribeirinhos e outras comunidades tradicionais
+                    possuem conhecimentos relacionados ao uso sustentável dos recursos
+                    naturais da região amazônica.
+                </p>
+            </article>
+
+            <article class="noticia">
+                <span class="categoria">ECONOMIA</span>
+
+                <h2>Bioeconomia ganha espaço como alternativa para o desenvolvimento da região</h2>
+
+                <p>
+                    Produtos da biodiversidade amazônica podem contribuir para a geração
+                    de renda quando explorados de maneira sustentável e responsável.
+                </p>
+            </article>
+
+            <article class="noticia">
+                <span class="categoria">TECNOLOGIA</span>
+
+                <h2>Novas tecnologias ajudam pesquisadores a monitorar a floresta</h2>
+
+                <p>
+                    Satélites, sensores, inteligência artificial e sistemas de análise
+                    de dados são utilizados para acompanhar mudanças no território
+                    amazônico.
+                </p>
+            </article>
+
+        </section>
+
+        <section class="materia" id="meio-ambiente">
+
+            <span class="categoria">ESPECIAL</span>
+
+            <h2>O futuro da Amazônia depende de informação, ciência e preservação</h2>
+
+            <p>
+                A Amazônia possui uma das maiores biodiversidades do planeta e exerce
+                importante influência sobre o equilíbrio ambiental. A região também
+                abriga milhões de pessoas e diferentes povos e comunidades.
+            </p>
+
+            <p>
+                A preservação da floresta está relacionada a fatores ambientais,
+                econômicos e sociais. Por isso, políticas públicas, pesquisa científica
+                e participação das comunidades locais são importantes para enfrentar
+                os desafios da região.
+            </p>
+
+            <h3>Desafios ambientais</h3>
+
+            <p>
+                Entre os principais desafios estão o desmatamento, as queimadas,
+                a exploração ilegal de recursos naturais e os impactos das mudanças
+                climáticas.
+            </p>
+
+            <h3>Ciência e tecnologia</h3>
+
+            <p>
+                Tecnologias de monitoramento permitem acompanhar mudanças na cobertura
+                vegetal e identificar áreas que necessitam de atenção. Essas ferramentas
+                também podem auxiliar pesquisadores e órgãos responsáveis pela
+                fiscalização ambiental.
+            </p>
+
+            <h3>Desenvolvimento sustentável</h3>
+
+            <p>
+                A busca por alternativas econômicas sustentáveis é outro ponto importante.
+                A bioeconomia pode utilizar recursos da biodiversidade sem depender
+                necessariamente da destruição da floresta.
+            </p>
+
+        </section>
+
+        <section class="secoes">
+
+            <div id="povos">
+                <h2>Povos da Amazônia</h2>
+
+                <p>
+                    A região amazônica possui uma grande diversidade cultural.
+                    Povos indígenas, comunidades ribeirinhas, quilombolas e outros
+                    grupos fazem parte da história e da realidade da região.
+                </p>
+            </div>
+
+            <div id="economia">
+                <h2>Economia</h2>
+
+                <p>
+                    A economia amazônica reúne atividades como agricultura,
+                    extrativismo, comércio, turismo e iniciativas relacionadas
+                    à bioeconomia.
+                </p>
+            </div>
+
+            <div id="tecnologia">
+                <h2>Tecnologia</h2>
+
+                <p>
+                    Ferramentas digitais, imagens de satélite e sistemas de análise
+                    de dados estão cada vez mais presentes no monitoramento e na
+                    pesquisa sobre a Amazônia.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="referencias">
+
+                <section class="referencias">
+
+        <h2>Fontes e Referências</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.gov.br/inpa/pt-br/assuntos/pesquisa" target="_blank" rel="noopener noreferrer">
+                    Instituto Nacional de Pesquisas da Amazônia (INPA)
+                </a>
+                — Pesquisas científicas sobre biodiversidade, ambiente, sociedade e tecnologia na Amazônia.
+            </li>
+
+            <li>
+                <a href="https://www.gov.br/inpe/pt-br/acesso-a-informacao/perguntas-frequentes/principais-produtos-e-servicos-do-inpe/monitoramento-do-territorio-florestas/como-se-monitora-o-desmatamento"
+                   target="_blank" rel="noopener noreferrer">
+                    Instituto Nacional de Pesquisas Espaciais (INPE)
+                </a>
+                — Monitoramento por satélite e dados sobre o desmatamento da Amazônia.
+            </li>
+
+            <li>
+                <a href="https://www.gov.br/ibama/pt-br/assuntos/fiscalizacao-e-protecao-ambiental/fiscalizacao-ambiental"
+                   target="_blank" rel="noopener noreferrer">
+                    Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA)
+                </a>
+                — Fiscalização e proteção ambiental, incluindo ações relacionadas à Amazônia.
+            </li>
+
+            <li>
+                <a href="https://www.gov.br/mma/pt-br"
+                   target="_blank" rel="noopener noreferrer">
+                    Ministério do Meio Ambiente e Mudança do Clima (MMA)
+                </a>
+                — Informações, políticas públicas e notícias sobre meio ambiente e Amazônia.
+            </li>
+
+            <li>
+                <a href="https://www.embrapa.br/amazonia-oriental"
+                   target="_blank" rel="noopener noreferrer">
+                    Embrapa Amazônia Oriental
+                </a>
+                — Pesquisas e tecnologias relacionadas à agricultura, biodiversidade e desenvolvimento sustentável na Amazônia.
+            </li>
+
+            <li>
+                <a href="https://www.gov.br/inpe/pt-br/programas/amazonia1"
+                   target="_blank" rel="noopener noreferrer">
+                    Programa Amazônia — INPE
+                </a>
+                — Informações sobre sensoriamento remoto e monitoramento da região amazônica.
+            </li>
+        </ul>
+
+        </section>
+
+    </main>
+
+</html>
