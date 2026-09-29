@@ -1,0 +1,92 @@
+body{
+    font-size: 70px;
+    font-family: 200 Arial;
+}
+
+h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+    h2{
+        background-color: gray;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Cinza";
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 421px) {
+    h2{
+        background-color: brasil;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Brasil";
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    h2{
+        background-color: pink;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Roxo";
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 1025px){
+    h2{
+        background-color: violet;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Violeta";
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1081px){
+    h2{
+        background-color: purple;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Rosa";
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1367px){
+    h2{
+        background-color: yellow;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Verde";
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1921px){
+    h2{
+        background-color: green;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Azul";
+        font-size: 70px;
+    }
+}
