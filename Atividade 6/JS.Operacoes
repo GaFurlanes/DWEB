@@ -1,0 +1,21 @@
+let Num1, Num2, Soma, Subtra, Produto, Div, Resto;
+Num1= prompt("nuemro 1: ");
+Num2= prompt("numero 2: ");
+Soma= parseFloat(N1) + parseFloat(N2);
+
+alert("Soma dos numeros: " + Soma);
+
+Subtra= parseFloat(N1) - parseFloat(N2);
+
+alert("Subtracao dos num: " + Sub);
+
+Produto= parseFloat(N1)*parseFloat(N2);
+
+alert("Produto dos num: " + Prod);
+
+Div= parseFloat(N1)/parseFloat(N2);
+
+alert("Divisao dos num: " + Div);
+
+Resto= parseFloat(N1)%parseFloat(N2);
+alert("Resto da div dos num: " + Resto);
